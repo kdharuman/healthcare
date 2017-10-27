@@ -7,6 +7,7 @@ rc=$?
 if [ $rc -eq 0 ]; then
 	echo "Return code=$rc" >> return_code.txt
 	echo "Build successful";
+	./hello_world
 	exit 0;
 else
 	echo "Return code=$rc" >> return_code.txt
