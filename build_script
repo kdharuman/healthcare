@@ -1,0 +1,14 @@
+#!/bin/bash
+echo "Building $1 program";
+make clean
+make
+rc=$?
+
+if [ $rc -eq 0 ]; then
+	echo "Build successful";
+	exit 0;
+else
+	echo "Build failure";
+	exit 1;
+fi
+
