@@ -8,6 +8,7 @@ if [ $rc -eq 0 ]; then
 	echo "Build successful";
 	exit 0;
 else
+	echo "Return code=$rc" >> return_code.txt
 	echo "Build failure";
 	exit 1;
 fi
