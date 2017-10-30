@@ -3,6 +3,6 @@
 
 int
 main (int argc, char **argv)	{
-	printf ("\n\nWelcome to the world of C\n\n");
+	printf ("\n\nWelcome to the world of Australia\n\n");
 	return 0;
 }
