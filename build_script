@@ -7,7 +7,7 @@ rc=$?
 if [ $rc -eq 0 ]; then
 	echo "Return code=$rc" >> success_code.txt
 	echo "Hurray - Build successful";
-	./hello_world 10 20
+	./hello_world 10 20 30
 	exit 0;
 else
 	echo "Return code=$rc" >> failure_code.txt
