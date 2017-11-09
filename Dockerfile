@@ -1,3 +1,3 @@
 FROM scratch
-ADD hello_world /
+COPY hello_world /
 CMD ["/hello_world"]
