@@ -6,6 +6,6 @@ main (int argc, char **argv)	{
 	printf ("\nTotal no. of arguments passed: %d",argc);
 	printf ("\n\nWelcome to the world of Advanced Software Engineering\n\n");
 	printf ("\nWe do good programming in C & C++ & Java");
-	printf ("\nEnd of C & C++ & Java Programming");
+	printf ("\nBegin of C & C++ & Java Programming");
 	return 0;
 }
