@@ -11,13 +11,5 @@ main (int argc, char **argv)	{
 	printf ("\nBegin of C & C++ & Java Programming");
 	printf ("\nAdded the task to push to repository");
 	printf ("\nAdded .dockercfg file");
-	
-	printf ("\nEnter the employee name: ");
-	gets (emp_name);
-	printf ("\nEnter the employee number: ");
-	scanf ("%d",&emp_num);
-
-	printf ("\nEmployee Name: %s",emp_name);
-	printf ("\nEmployee Number: %d",emp_num);
 	return 0;
 }
