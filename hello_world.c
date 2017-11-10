@@ -11,6 +11,6 @@ main (int argc, char **argv)	{
 	printf ("\nBegin of C & C++ & Java Programming");
 	printf ("\nAdded the task to push to repository");
 	printf ("\nAdded .dockercfg file");
-	printf ("\nAdding .dockercfg did not work");
+	printf ("\nAdding .dockercfg has not work");
 	return 0;
 }
