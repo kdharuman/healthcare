@@ -3,11 +3,21 @@
 
 int
 main (int argc, char **argv)	{
+	char emp_name[20];
+	int emp_num;
 	printf ("\nTotal no. of arguments passed: %d",argc);
 	printf ("\n\nWelcome to the world of Advanced Software Engineering\n\n");
 	printf ("\nWe do good programming in C & C++ & Java");
 	printf ("\nBegin of C & C++ & Java Programming");
 	printf ("\nAdded the task to push to repository");
 	printf ("\nAdded .dockercfg file");
+	
+	printf ("\nEnter the employee name: ");
+	gets (emp_name);
+	printf ("\nEnter the employee number: ");
+	scanf ("%d",&emp_num);
+
+	printf ("\nEmployee Name: %s',emp_name);
+	printf ("\nEmployee Number: %d:,emp_num);
 	return 0;
 }
