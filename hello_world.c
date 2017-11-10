@@ -17,7 +17,7 @@ main (int argc, char **argv)	{
 	printf ("\nEnter the employee number: ");
 	scanf ("%d",&emp_num);
 
-	printf ("\nEmployee Name: %s',emp_name);
-	printf ("\nEmployee Number: %d:,emp_num);
+	printf ("\nEmployee Name: %s",emp_name);
+	printf ("\nEmployee Number: %d",emp_num);
 	return 0;
 }
