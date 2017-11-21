@@ -10,6 +10,7 @@ main (int argc, char **argv)	{
 	printf ("\nWe do good programming in C & C++ & Java");
 	printf ("\nBegin of C & C++ & Java Programming");
 	printf ("\nAdded the task to push to repository");
+	printf ("\nWorking with docker");
 	printf ("\nAdded .dockercfg file");
 	printf ("\nAdding .dockercfg has not work");
 	return 0;
